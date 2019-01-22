@@ -10,6 +10,14 @@
   @import '_header/menu';
 }
 
+.ticker {
+  @include clearfix; 
+  padding: $header-padding;
+
+  @import '_header/logo';
+  @import '_header/menu';
+  background-color: #EABC3C;
+}
 
 @include max-screen() {
   .header {
